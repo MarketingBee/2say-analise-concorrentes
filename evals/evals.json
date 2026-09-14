@@ -1,0 +1,23 @@
+{
+  "skill_name": "analise-concorrentes-discovery",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "preciso da análise de concorrentes pro Discovery da Patrimonial. concorrentes que eles citaram: Inviolável, Orbi Groups, STV e Cronos. tá tudo na pasta do cliente no vault",
+      "expected_output": "Lê o vault antes de perguntar, monta briefing.md e config.json, mostra estimativa de créditos e pede confirmação antes de coletar; depois gera métricas, temas por code, leitura de posicionamento e tabela de oportunidades com evidência.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "atualiza a análise de concorrentes da ACIC com os dados de hoje, quero ver se mudou alguma coisa desde setembro",
+      "expected_output": "Reaproveita config.json e temas da pasta da ACIC, coleta nova data em raw-AAAA-MM-DD, compara com o relatório anterior e aponta o que mudou.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "o Henrique quer comparar o insta e o site de um cliente novo, uma rede de clínicas odontológicas de Chapecó, com 3 concorrentes. ainda não sei quem são os concorrentes",
+      "expected_output": "Conduz o briefing, propõe concorrentes a partir de busca local e confirma antes de coletar; adapta as categorias de tema ao segmento (não usa as de associação empresarial).",
+      "files": []
+    }
+  ]
+}

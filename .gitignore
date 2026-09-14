@@ -1,0 +1,24 @@
+# Chaves de API — nunca commitar
+.env
+*.env
+!.env.example
+
+# Dados de coleta e briefings de cliente — ficam na pasta de trabalho do vault, não no repo
+dados/
+briefing.md
+config.json
+temas.json
+google.json
+*.tsv
+
+# Python
+__pycache__/
+*.pyc
+
+# Resultado de rodadas de teste/avaliação (skill-creator)
+*-workspace/
+evals/*-workspace/
+
+# Sistema
+.DS_Store
+Thumbs.db
