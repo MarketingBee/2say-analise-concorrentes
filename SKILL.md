@@ -76,28 +76,36 @@ Canal que não existe fica `null` — ausência também é achado.
 
 ```json
 {
-  "cliente": "ACIC Chapecó",
+  "cliente": "Empresa Exemplo",
   "janela_dias": 30,
   "pais": "BR",
   "entidades": [
     {
-      "slug": "acic", "nome": "ACIC Chapecó", "papel": "cliente",
-      "site": "https://acichapeco.com.br",
-      "instagram": "acichapeco",
-      "facebook": "https://www.facebook.com/acic.chapeco",
-      "linkedin": "https://www.linkedin.com/company/acic-associacao-comercial-e-industrial-de-chapeco",
-      "youtube": "UCdQaLsfZQPZsQQB-D_vemKQ",
+      "slug": "cliente", "nome": "Empresa Exemplo", "papel": "cliente",
+      "site": "https://empresaexemplo.com.br",
+      "instagram": "empresaexemplo",
+      "facebook": "https://www.facebook.com/empresaexemplo",
+      "linkedin": "https://www.linkedin.com/company/empresa-exemplo",
+      "youtube": "UCxxxxxxxxxxxxxxxxxxxxxx",
       "tiktok": null,
       "meta_page_id": null,
-      "google_maps": "ACIC Associação Comercial Industrial Chapecó"
+      "google_maps": "Empresa Exemplo, Cidade"
+    },
+    {
+      "slug": "concorrente-a", "nome": "Concorrente A", "papel": "concorrente",
+      "site": "https://concorrentea.com.br",
+      "instagram": "concorrentea",
+      "facebook": null, "linkedin": null, "youtube": null, "tiktok": null,
+      "meta_page_id": null, "google_maps": "Concorrente A, Cidade"
     }
   ]
 }
 ```
 
 `papel` é `cliente`, `concorrente` ou `referencia` (alguém de outra praça que serve de
-modelo, como a ACIF de Florianópolis no caso ACIC). `youtube` aceita ID do canal (`UC...`),
-@handle ou URL. `meta_page_id` é opcional — o script descobre pela página do Facebook.
+modelo — por exemplo, um caso maduro do mesmo segmento numa cidade maior). `youtube` aceita
+ID do canal (`UC...`), @handle ou URL. `meta_page_id` é opcional — o script descobre pela
+página do Facebook.
 
 `janela_dias`: 30 funciona para quem posta quase todo dia. Se o segmento posta pouco
 (2–3 vezes por semana), use 60 ou 90, senão cada conta fica com poucos posts para comparar.
@@ -124,10 +132,10 @@ créditos são da conta da empresa.
 
 ```json
 {
-  "acic": {"nota": 4.7, "avaliacoes": 275, "perfil": "sede",
-           "temas": {"estrutura": 11, "cursos": 8, "estacionamento": 8},
-           "responde": "não, nas avaliações em destaque",
-           "observacao": "elogios à estrutura; crítica a equipamento antigo"}
+  "cliente": {"nota": 4.7, "avaliacoes": 275, "perfil": "sede",
+              "temas": {"estrutura": 11, "atendimento": 8, "estacionamento": 8},
+              "responde": "não, nas avaliações em destaque",
+              "observacao": "elogios à estrutura; crítica a algum ponto específico"}
 }
 ```
 
@@ -189,7 +197,7 @@ onde mora a maior parte dos achados.
 
 ### 7. Gaps e oportunidades
 
-O cruzamento que mais rendeu no caso ACIC:
+O cruzamento que mais rendeu numa rodada real:
 
 - **Território:** que tema rende acima da mediana para o cliente e quanto do feed dele ocupa?
   Que tema nenhum concorrente da praça ocupa? Tema que rende, que o cliente pouco publica e

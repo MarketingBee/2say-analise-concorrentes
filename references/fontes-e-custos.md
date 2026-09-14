@@ -1,6 +1,6 @@
 # Fontes, custos e limites conhecidos
 
-Checado em set/2026 no caso ACIC. Header de autenticação: `x-api-key`. Base:
+Checado em set/2026 numa rodada real de 4 entidades em 6 canais. Header de autenticação: `x-api-key`. Base:
 `https://api.scrapecreators.com`. Toda resposta traz `credits_remaining` (o endpoint
 `/v1/credit/balance` da documentação dá 404).
 

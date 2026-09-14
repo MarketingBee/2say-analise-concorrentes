@@ -16,16 +16,18 @@
 
 ## Armadilhas que já apareceram
 
-- **Conta pequena tem engajamento % maior por natureza.** No caso ACIC, a DEATEC (4,7 mil
-  seguidores) tinha 0,67% contra 0,14% da ACIC (14,8 mil). Não quer dizer que se comunica
-  melhor. Use fatia do engajamento e rendimento por tema para comparar.
-- **Views altas com interação baixa = anúncio.** O Reel da CDL teve 124 mil views e 13
-  interações — o mesmo criativo estava rodando como anúncio. Sempre cruze outliers de views
-  com a Biblioteca de Anúncios antes de chamar de "sucesso orgânico".
-- **Collab soma o público do parceiro.** O maior post da ACIC era uma collab. Registre
-  quantos posts de cada conta são collab e diga isso ao citar um outlier.
-- **Período atípico distorce tema.** Eleição, evento grande, campanha sazonal. Na ACIF,
-  a campanha eleitoral inflava "pauta da cidade". Pergunte no briefing e cite no relatório.
+- **Conta pequena tem engajamento % maior por natureza.** Numa rodada real, um concorrente
+  com poucos milhares de seguidores tinha engajamento % quase 5x maior que o cliente, que
+  tinha três vezes mais seguidores. Não quer dizer que se comunica melhor. Use fatia do
+  engajamento e rendimento por tema para comparar.
+- **Views altas com interação baixa = anúncio.** Um Reel com seis dígitos de views e poucas
+  dezenas de interações estava rodando como anúncio ao mesmo tempo. Sempre cruze outliers de
+  views com a Biblioteca de Anúncios antes de chamar de "sucesso orgânico".
+- **Collab soma o público do parceiro.** O maior outlier de uma rodada real era uma collab.
+  Registre quantos posts de cada conta são collab e diga isso ao citar um outlier.
+- **Período atípico distorce tema.** Eleição, evento grande, campanha sazonal. Numa das
+  contas comparadas, uma campanha institucional inflava um tema específico durante a
+  janela. Pergunte no briefing e cite no relatório.
 - **Curtidas ocultas.** Conta que esconde curtidas entra com comentários e views; o script
   conta quantos posts vieram assim.
 - **Janela curta para quem posta pouco.** Com menos de ~10 posts na janela, mediana e
@@ -42,20 +44,24 @@
 
 ## Padrões de leitura que renderam achados
 
-1. **Declarado × percebido × entregue.** A ACIC dizia ser "a voz dos empreendedores"; o
-   Google dizia "estrutura, cursos, estacionamento"; o feed tinha 29% de promoção de curso.
-   A distância entre os três virou o achado central.
-2. **Tema que rende, que o cliente publica pouco e que ninguém ocupa.** Pauta da cidade
-   rendia 2,4x na ACIC, ocupava 12% do feed, e nenhum concorrente de Chapecó publicava.
-3. **Produção sem distribuição.** Podcast no YouTube com 3–56 views por episódio enquanto
-   Reels da mesma conta rendiam mais — sugestão: cortar episódios em Reels.
+1. **Declarado × percebido × entregue.** Um cliente se posicionava como "a voz de quem
+   empreende" na categoria; as avaliações do Google giravam em torno de estrutura e
+   atendimento; boa parte do feed era promoção de curso/evento. A distância entre os três
+   virou o achado central.
+2. **Tema que rende, que o cliente publica pouco e que ninguém ocupa.** Um tema de
+   posicionamento (a pauta que a marca já dizia querer ocupar) rendia bem acima da mediana,
+   ocupava pouco do feed, e nenhum concorrente da mesma praça publicava sobre isso.
+3. **Produção sem distribuição.** Podcast no YouTube com poucas dezenas de views por
+   episódio enquanto Reels da mesma conta rendiam muito mais — sugestão: cortar episódios
+   em Reels.
 4. **Mídia sem medição.** Cliente anunciando na Meta com site sem Pixel nem automação.
-5. **Botão sem funil.** Todo mundo tem "associe-se" no site; só quem junta anúncio +
-   formulário de automação + chat está de fato captando.
+5. **Botão sem funil.** Todo mundo tem "associe-se"/"fale conosco" no site; só quem junta
+   anúncio + formulário de automação + chat está de fato captando.
 6. **Canal marcado como ativo que está parado.** Confira a data do último post antes de
    dar ✓ no slide de canais.
 7. **Reputação sem resposta.** Maior volume de avaliações da praça e nenhuma resposta às
    avaliações em destaque — ajuste barato e visível.
 8. **Correção do diagnóstico anterior.** Se já existe uma versão qualitativa (deck), os
-   números podem confirmar ou desmentir. No caso ACIC, desmentiram "nenhum concorrente
-   busca novos associados" (a ACIF fazia por anúncio). Registre as correções.
+   números podem confirmar ou desmentir. Numa rodada real, os números desmentiram a leitura
+   de que "nenhum concorrente busca clientes novos" — um deles fazia isso por anúncio pago.
+   Registre as correções.
