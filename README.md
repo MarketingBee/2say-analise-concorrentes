@@ -104,4 +104,6 @@ além da biblioteca padrão.
 
 ## Licença de uso
 
-Uso interno do Grupo Coonecta / 2SAY. Não é software de código aberto.
+Repositório público para facilitar o acesso do time da 2SAY, mas o conteúdo é trabalho do
+Grupo Coonecta. Não há licença de código aberto — reprodução ou uso fora do grupo não estão
+autorizados.
